@@ -19,4 +19,8 @@
 
     <string name="delete_query">Delete this file?</string>
     <string name="delete_confirmation">Delete</string>
+    
+    <string name="videos_permission_needed">Storage permission is needed to show your videos</string>
+    <string name="no_videos_found">No videos found on this device</string>
+    
 </resources>
