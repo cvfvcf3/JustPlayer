@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:textSize="14.5sp"
-            android:maxLines="1"
+            android:singleLine="true"
             android:ellipsize="middle" />
 
         <TextView
