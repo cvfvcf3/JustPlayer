@@ -46,4 +46,5 @@ dependencies {
     implementation 'com.github.hedzr:android-file-chooser:v1.2.0-final'
     implementation project(path: ':doubletapplayerview')
     implementation fileTree(dir: "libs", include: ["*.aar"])
+    implementation 'androidx.documentfile:documentfile:1.0.1'
 }
