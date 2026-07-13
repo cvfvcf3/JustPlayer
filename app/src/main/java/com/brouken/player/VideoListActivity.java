@@ -159,7 +159,7 @@ public class VideoListActivity extends AppCompatActivity {
             Uri treeUri = data.getData();
             if (treeUri != null) {
                 getContentResolver().takePersistableUriPermission(treeUri,
-                        Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION);
+                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 addSavedTreeUri(treeUri.toString());
                 Toast.makeText(this, "Folder added — scanning for videos…", Toast.LENGTH_SHORT).show();
                 loadFolders();
